@@ -1,6 +1,6 @@
 # A* Search Algorithm for Robot Path Planning
 
-This program uses A* to find an optimal path to get from point A to point B.
+This program uses A* to find an optimal path to get from point A to point B. Here, I used data structures (list, set, and dictionary) to utilize the best performance.
 
 In this example, we have 40 nodes to represent intersections, each with their own unique sets of connections with other nodes to represent roads.
 
