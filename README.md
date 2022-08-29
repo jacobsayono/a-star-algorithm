@@ -8,7 +8,7 @@ The image output is shown in my Jupyter notebook but are not included when I com
 - `show_map().png` to represent the 40 nodes on the map
 - `show_map(test_path).png` to represent an optimal path from a start node to a goal node.
 
-## Code Summary (See Code Comments for More Details):
+## Code Summary:
 
 - If the heuristic is consistent, once a node is chosen by `get_current_node`, it is guaranteed that we found the best posible path from the start node to this node, and thus also the best possible g-score and f-score for this node. So, this "current" node is added to the closed set, and can be ignored if it appears again as a neighbor of another node in some iteration in the future.
 - We explore the neighbors of `current` (some call this "expanding the node"). For each neighbor node:
@@ -18,11 +18,15 @@ The image output is shown in my Jupyter notebook but are not included when I com
         - Its new f-score is also easy, since the h-score is fixed.
         - We also update cameFrom updating or creating the key `neighbor` with the value `current`. This idea of keeping just the parent of each node and reconstructing the path backwards is better than keeping all the partial paths: it saves memory, and the reconstruction algorithm is linear, so fast enough in most scenarios.
 
+See `a_star.ipynb` line comments for more details.
+
 ## To Run Locally:
 
 - Install `JupyterLab` or `Jupyter Notebook` running on `Python3`
 - Install `pip` for: `networkx`
-- Install `nodejs` or `npm` for: `plotly` (See map.py for more details)
+- Install `nodejs` or `npm` for: `plotly`
+
+See `map.py` header comments for more details.
 
 ## Common Q&A:
 
