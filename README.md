@@ -18,6 +18,12 @@ The image output is shown in my Jupyter notebook but are not included when I com
         - Its new f-score is also easy, since the h-score is fixed.
         - We also update cameFrom updating or creating the key `neighbor` with the value `current`. This idea of keeping just the parent of each node and reconstructing the path backwards is better than keeping all the partial paths: it saves memory, and the reconstruction algorithm is linear, so fast enough in most scenarios.
 
+## To Run Locally:
+
+- Install `JupyterLab` or `Jupyter Notebook` running on `Python3`
+- Install `pip` for: `networkx`
+- Install `nodejs` or `npm` for: `plotly` (See map.py for more details)
+
 ## Common Q&A:
 
 **1) How would we explain A-Star to a family member(layman)?**
