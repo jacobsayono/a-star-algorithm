@@ -8,6 +8,10 @@ The image output is shown in my Jupyter notebook but are not included when I com
 - `show_map().png` to represent the 40 nodes on the map
 - `show_map(test_path).png` to represent an optimal path from a start node to a goal node.
 
+<img src="https://github.com/jacobsayono/a-star-algorithm/blob/main/screenshots/show_map().png" width="70%" height="70%" />
+
+<img src="https://github.com/jacobsayono/a-star-algorithm/blob/main/screenshots/show_map(test_path).png" width="70%" height="70%" />
+
 ## Code Summary:
 
 - If the heuristic is consistent, once a node is chosen by `get_current_node`, it is guaranteed that we found the best posible path from the start node to this node, and thus also the best possible g-score and f-score for this node. So, this "current" node is added to the closed set, and can be ignored if it appears again as a neighbor of another node in some iteration in the future.
