@@ -8,9 +8,9 @@ The image output is shown in my Jupyter notebook but are not included when I com
 - `show_map().png` to represent the 40 nodes on the map
 - `show_map(test_path).png` to represent an optimal path from a start node to a goal node.
 
-<img src="https://github.com/jacobsayono/a-star-algorithm/blob/main/screenshots/show_map().png" width="70%" height="70%" />
+<img src="https://github.com/jacobsayono/a-star-algorithm/blob/main/screenshots/show_map().png" width="100%" height="100%" />
 
-<img src="https://github.com/jacobsayono/a-star-algorithm/blob/main/screenshots/show_map(test_path).png" width="70%" height="70%" />
+<img src="https://github.com/jacobsayono/a-star-algorithm/blob/main/screenshots/show_map(test_path).png" width="100%" height="100%" />
 
 ## Code Summary:
 
