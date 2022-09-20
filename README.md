@@ -1,12 +1,16 @@
 # A* Search Algorithm for Robot Path Planning
 
-This program uses A* `algorithm` to find an optimal path to get from point A to point B. Here, I utilized `data structure` (list, set, and dictionary) to provide optimal performance.
+This program uses A* `algorithm` to find an optimal path to get from point A to point B. Here, I utilized `data structures` (list, set, and dictionary) to provide optimal performance.
 
 In this example, we have 40 nodes to represent intersections, each with their own unique sets of connections with other nodes to represent roads.
 
 The image output is shown in my Jupyter notebook but are not included when I commit my project to GitHub. Thus, I have included 2 pictures:
 - `show_map().png` to represent the 40 nodes on the map
 - `show_map(test_path).png` to represent an optimal path from a start node to a goal node.
+
+<img src="https://github.com/jacobsayono/a-star-algorithm/blob/main/screenshots/show_map().png" width="100%" height="100%" />
+
+<img src="https://github.com/jacobsayono/a-star-algorithm/blob/main/screenshots/show_map(test_path).png" width="100%" height="100%" />
 
 ## Code Summary:
 
